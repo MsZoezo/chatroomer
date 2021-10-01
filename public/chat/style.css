@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.chat-box {
+    box-shadow: 3px 3px 5px 6px #E7EBF7;
+    border-radius: 10px;
+
+    width: 80%;
+	height: 80%;
+
+    padding: 25px;
+}
+
+.text-area {
+	width: 100%;
+	height: calc(100% - 50px);
+
+	overflow: auto;
+}
+
+.input-area {
+	width: 100%;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type=text] {
+    font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+    width: 60%;
+	min-width: 200px;
+	height: 30px;
+
+    border-radius: 10px;
+}
+
+button {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+
+	background-color: transparent;
+
+	height: 36px;
+	width: auto;
+
+	border-radius: 10px;
+
+	margin-left: 20px;
+}
+
+.message {
+	width: 100%;
+	height: 30px;
+}
+
+.message p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+}

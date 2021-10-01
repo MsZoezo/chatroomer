@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+input[type=text], input[type=password] {
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+
+    border-radius: 10px;
+}
+
+input[type=text]:focus , input[type=password]:focus {
+    outline: none;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    padding: 0px 10px;
+
+	border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 6px #E7EBF7;
+
+    text-decoration: none;
+
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.login {
+    box-shadow: 3px 3px 5px 6px #E7EBF7;
+    border-radius: 10px;
+
+    width: fit-content;
+
+    padding: 25px;
+}
